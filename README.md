@@ -1,6 +1,10 @@
 # Word Automator Desktop App
 
-A premium, high-performance desktop application built with Electron.js designed to automate the generation of Word documents. specifically tailored for **MBP-1** and **DIR-8** forms.
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white) 
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+A premium, high-performance desktop application built with **Electron.js** and **Node.js**...
 
 ## 🚀 Features
 

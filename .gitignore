@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+check_date2.js
+check_doc.js
+check_dir.js
+check_dir8.js
+convert.ps1
+convert2.ps1
+convert3.ps1
+dir8_xml.txt

@@ -27,10 +27,10 @@ const processResult = document.getElementById('process-result');
 
 // Set Defaults
 let currentTemplatePaths = {
-    'mbp-1': "Z:\\Documents\\Blanked\\Blank_MBP-1_.docx",
-    'dir-8': "Z:\\Documents\\Blanked\\Blank_DIR-8.docx"
+    'mbp-1': "./templates/Blank_MBP-1_.docx",
+    'dir-8': "./templates/Blank_DIR-8.docx"
 };
-let currentOutputPath = "Z:\\Documents\\Filled";
+let currentOutputPath = "./Filled";
 templatePathInput.value = currentTemplatePaths[activeTemplateType];
 outputPathInput.value = currentOutputPath;
 

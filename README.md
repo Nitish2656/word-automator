@@ -44,4 +44,3 @@ npm run build
 ```
 
 ---
-Built with ❤️ by Antigravity

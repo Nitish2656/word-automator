@@ -7,7 +7,7 @@ async function buildInstaller() {
     await electronInstaller.createWindowsInstaller({
       appDirectory: path.join(__dirname, 'dist', 'word-automator-win32-x64'),
       outputDirectory: path.join(__dirname, 'dist', 'installer'),
-      authors: 'Antigravity',
+      authors: 'Nitish',
       exe: 'word-automator.exe',
       description: 'Desktop Application for Word Automating'
     });

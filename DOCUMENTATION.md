@@ -5,18 +5,40 @@ Welcome to the comprehensive technical documentation for the **Word Automator** 
 ---
 
 ## 📑 Table of Contents
-1. [Architecture Overview](#architecture-overview)
-2. [Core features Logic](#core-features-logic)
+1. [Tech Stack & Methodology](#tech-stack--methodology)
+2. [Architecture Overview](#architecture-overview)
+3. [Core Features Logic](#core-features-logic)
    - [Excel Automation](#excel-automation)
    - [Manual Entry](#manual-entry)
-3. [Template Engine & Custom Processing](#template-engine--custom-processing)
+4. [Template Engine & Custom Processing](#template-engine--custom-processing)
    - [MBP-1 Logic](#mbp-1-logic)
    - [DIR-8 Logic (*) Sequential Mapping](#dir-8-logic--sequential-mapping)
-4. [File Structure](#file-structure)
-5. [Developer Guide](#developer-guide)
+5. [File Structure](#file-structure)
+6. [Developer Guide](#developer-guide)
    - [Installation](#installation)
    - [Building the App](#building-the-app)
-6. [Troubleshooting & FAQs](#troubleshooting--faqs)
+7. [Troubleshooting & FAQs](#troubleshooting--faqs)
+
+---
+
+## 🛠 Tech Stack & Methodology
+
+### How this software was created
+This application was developed as a modern, cross-platform solution to the manual labor of filling legal and corporate Word documents. The construction followed a **Modular Architecture**:
+1.  **Frontend (UI)**: Designed with a Dark-Mode aesthetic focusing on usability and bulk-processing efficiency.
+2.  **Logic (Parsing)**: Implemented Excel-to-JSON parsing to handle large datasets.
+3.  **Bridge (Secure IPC)**: Utilized Electron's Inter-Process Communication (IPC) to bridge the browser-based UI with the system-level Node.js file engine safely.
+4.  **Engine (Generation)**: Built a custom XML-injector to bypass standard Word limitations, specifically for the sequential `(*)` markers in DIR-8 forms.
+
+### Technologies Used
+| Technology | Role | Why it was chosen? |
+| :--- | :--- | :--- |
+| **Electron.js** | Main Framework | To create a native desktop application (`.exe`) using fast web technologies. |
+| **Node.js** | Backend Runtime | Handles absolute file paths and heavy document processing. |
+| **docxtemplater** | Word Engine | Highly reliable library for injecting data into Office XML. |
+| **PizZip** | Compression | Manages the internal ZIP structure of `.docx` files. |
+| **SheetJS (xlsx)** | Excel Parser | The industry standard for reading and converting Excel data. |
+| **Vanilla CSS** | Styling | For a zero-dependency, premium, and custom glassmorphic design. |
 
 ---
 

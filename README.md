@@ -31,6 +31,11 @@ A premium, high-performance desktop application built with **Electron.js** and *
 2. **Input Data**: Either drag & drop an Excel file or fill out the manual form.
 3. **Generate**: Hit the "Generate Word Documents" button. The files will be saved in your specified output directory.
 
+## 📚 Documentation
+
+For a deep dive into the application's architecture, template logic, and developer guides, please refer to the:
+- **[In-Depth Technical Documentation (DOCUMENTATION.md)](./DOCUMENTATION.md)**
+
 ## 🔧 Installation for Developers
 
 ```bash
